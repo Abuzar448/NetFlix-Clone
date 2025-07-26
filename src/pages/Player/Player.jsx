@@ -35,7 +35,7 @@ const Player = () => {
 
   return (
     <div className="player">
-      <img src={backIcon} alt="" onClick={()=>{navigate('/Home')}}/>
+      <img src={backIcon} alt="" onClick={()=>{navigate('/')}}/>
       <iframe
         width="90%"
         height="90%"
